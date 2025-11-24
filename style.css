@@ -119,6 +119,10 @@ h1, h2, h3 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+
+    position: relative; 
+    overflow: hidden;
 }
 
 .contact-links a {
@@ -132,4 +136,31 @@ h1, h2, h3 {
     color: #fff;
     text-align: center;
     padding: 40px 0;
+}
+
+.detail-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 20%;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.detail-link:hover {
+    background: #e0e0e0;
+}
+
+.detail-link::after {
+    content: '';
+    border: 8px solid transparent; 
+    border-left-color: #333;
+    transform: translateX(2px); 
 }
