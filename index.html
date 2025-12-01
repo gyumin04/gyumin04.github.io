@@ -12,6 +12,7 @@
         <div class="container">
             <nav id="navbar">
                 <ul>
+                    <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -21,98 +22,100 @@
         </div>
     </header>
 
-    <section id="hero" class="section-padding">
-        <div class="container">
-            <h1>안녕하세요! 이규민입니다.</h1>
-            <h2>데이터를 분석하고 예측 모델을 구축하는 AI 엔지니어 지망생</h2>
-        </div>
-    </section>
-
-    <section id="about" class="section-padding">
-        <div class="about_me">
-            <div>
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <p>저는 AI/머신러닝 엔지니어 지망생으로서, 데이터를 분석하고 예측 모델을 구축하는 데 깊은 흥미와 열정을 가지고 있습니다.</p>
-                <p>자연어 처리(NLP) 기술을 활용한 챗봇 및 텍스트 분석 모델 개발에 관심을 두고 있습니다.</p>
-                <p>Transformer, BERT 등 최신 모델 구조를 이해하고 실습하는 것에 주력하고 있습니다.</p>
-                <p>지속적인 프로젝트 경험을 통해 이론을 실무에 적용하는 능력을 키우고,</p>
-                <p>궁극적으로 사용자에게 가치를 제공하는 AI 서비스를 개발하는 엔지니어가 되는 것이 목표입니다.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section-padding">
-        <div class="skill">
-            <div>
-               <h2>Skills</h2> 
-            </div>
-            <div>
-                <h3>Languages</h3>
-                <ul class="skill-list">
-                    <li><a>PYTHON</a></li>
-                </ul>
-
-                <h3>ML/DL Frameworks</h3>
-                <ul class="skill-list">
-                    <li><a href="https://github.com/gyumin04/Music_Tagging_AI">TensorFlow</a></li>
-                    <li><a>Scikit-learn</a></li>
-                    <li><a>Keras</a></li>
-                </ul>
-                <h3>Data Analysis & Tools</h3>
-                <ul class="skill-list">
-                    <li><a>Pandas</a></li>
-                    <li><a>NumPy</a></li>
-                    <li><a>Matplotlib / Seaborn</a></li>
-                    <li><a>Git / GitHub</a></li>
-                </ul> 
-            </div>
-        </div>
-    </section>
+    <div id="scroll-wrapper">
     
-    <section id="projects" class="section-padding">
-        <div class="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <article class="project-card">
-                     <h3>Music_Genre_Prediction_API</h3>
-                     <p class="summary"><strong>프로젝트 요약</strong> : 음악 스트리밍 사용자 활동 기반 선호 장르 예측 Flask API 제작</p>
-                     <p class="result"><strong>프로젝트 결과 및 성과</strong><br>
-                                        가상 데이터를 기반으로 Keras를 사용해 다중 레이블 분류 문제를 해결하는 딥러닝 모델을 제작하였다. <br>
-                                        다음은 최종 모델의 성능 지표이다. <br>
-                                         - accuracy: 0.5362 - loss: 0.0265 - val_accuracy: 0.6000 - val_loss: 0.0399 <br>
-                                        모델의 일반화 성능이 좋고 손실값 또한 낮다. 또한 해밍 손실은 0.0079로 매우 우수하다. <br>
-                                        실제 사용자 데이터는 google takeout을 사용해 받아서 Last.fm API를 활용하여 전처리하였다. <br>
-                     </p>
-                     <a href="https://github.com/gyumin04/Music_Genre_Prediction_API" class="detail-link" aria-label="Music Genre Prediction API 상세보기"></a>
-                    </article>
-                <article class="project-card">
-                     <h3>프로젝트명</h3>
-                     <p class="summary">프로젝트 요약</p>
-                     <p class="result">프로젝트 결과 및 성과</p>
-                </article>
-                
-                <article class="project-card">
-                     <h3>프로젝트명</h3>
-                     <p class="summary">프로젝트 요약</p>
-                     <p class="result">프로젝트 결과 및 성과</p>
-                </article>
+        <section id="hero" class="section-padding section-snap">
+            <div class="container">
+                <h1>안녕하세요! 이규민입니다.</h1>
+                <h2>데이터를 분석하고 예측 모델을 구축하는 AI 엔지니어 지망생</h2>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer id="contact">
-        <div class="container">
-            <h2 class = "contact">Contact</h2>
-            <p>이규민 |  AI/머신러닝 엔지니어 지망생 </p>
-            <div class="contact-links">
-                <a href="mailto:gyuminwork@gmail.com">이메일 문의</a>
-                <a href="https://github.com/gyumin04">GitHub</a>
+        <section id="about" class="section-padding section-snap">
+            <div class="about_me">
+                <div>
+                    <h2>About Me</h2>
+                </div>
+                <div>
+                    <p>저는 AI/머신러닝 엔지니어 지망생으로서, 데이터를 분석하고 예측 모델을 구축하는 데 깊은 흥미와 열정을 가지고 있습니다.</p>
+                    <p>자연어 처리(NLP) 기술을 활용한 챗봇 및 텍스트 분석 모델 개발에 관심을 두고 있습니다.</p>
+                    <p>Transformer, BERT 등 최신 모델 구조를 이해하고 실습하는 것에 주력하고 있습니다.</p>
+                    <p>지속적인 프로젝트 경험을 통해 이론을 실무에 적용하는 능력을 키우고,</p>
+                    <p>궁극적으로 사용자에게 가치를 제공하는 AI 서비스를 개발하는 엔지니어가 되는 것이 목표입니다.</p>
+                </div>
             </div>
-            <p class="copyright">© 2025 이규민. Built with HTML & CSS.</p>
-        </div>
-    </footer>
+        </section>
 
+        <section id="skills" class="section-padding section-snap">
+            <div class="skill">
+                <div>
+                    <h2>Skills</h2> 
+                </div>
+                <div>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li><a href="#projects">PYTHON</a></li>
+                    </ul>
+
+                    <h3>ML/DL Frameworks</h3>
+                    <ul class="skill-list">
+                        <li><a href="https://github.com/gyumin04/Music_Tagging_AI" target="_blank">TensorFlow</a></li>
+                        <li><a href="#projects">Scikit-learn</a></li>
+                        <li><a href="#projects">Keras</a></li>
+                    </ul>
+                    <h3>Data Analysis & Tools</h3>
+                    <ul class="skill-list">
+                        <li><a href="#projects">Pandas</a></li>
+                        <li><a href="#projects">NumPy</a></li>
+                        <li><a href="#projects">Matplotlib / Seaborn</a></li>
+                        <li><a href="https://github.com/gyumin04" target="_blank">Git / GitHub</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section-padding section-snap">
+            <div class="projects">
+                <div>
+                <h2>Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                            <h3>Music_Genre_Prediction_API</h3>
+                            <p class="summary"><strong>프로젝트 요약</strong> : 음악 스트리밍 사용자 활동 기반 선호 장르 예측 Flask API 제작</p>
+                            <p class="result"><strong>프로젝트 결과 및 성과</strong><br>
+                                Keras를 사용해 다중 레이블 분류 문제를 해결하는 딥러닝 모델을 제작하였다. <br>
+                                모델의 일반화 성능이 좋고 손실값 또한 낮다. 또한 해밍 손실은 0.0079로 매우 우수하다. <br>
+                                실제 사용자 데이터는 google takeout을 사용해 받아서 Last.fm API를 활용하여 전처리하였다. <br>
+                            </p>
+                            <a href="https://github.com/gyumin04/Music_Genre_Prediction_API" target="_blank" class="detail-link" aria-label="Music Genre Prediction API 상세보기"></a>
+                        </article>
+                    <article class="project-card">
+                            <h3>프로젝트명</h3>
+                            <p class="summary">프로젝트 요약</p>
+                            <p class="result">프로젝트 결과 및 성과</p>
+                        </article>
+                        
+                    <article class="project-card">
+                            <h3>프로젝트명</h3>
+                            <p class="summary">프로젝트 요약</p>
+                            <p class="result">프로젝트 결과 및 성과</p>
+                        </article>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="section-snap">
+            <div class="container">
+                <h2 class="contact">Contact</h2>
+                <p>이규민 |  AI/머신러닝 엔지니어 지망생 </p>
+                <div class="contact-links">
+                    <a href="mailto:gyuminwork@gmail.com">이메일 문의</a>
+                    <a href="https://github.com/gyumin04">GitHub</a>
+                </div>
+                <p class="copyright">© 2025 이규민. Built with HTML & CSS.</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
